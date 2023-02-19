@@ -1,3 +1,4 @@
+import 'package:first_project/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
 class Homepage extends StatelessWidget {
@@ -12,7 +13,7 @@ class Homepage extends StatelessWidget {
           child: const Text("Welcome to Rohit's World"),
         ),
       ),
-      drawer: const Drawer(),
+      drawer: const MyDrawer(),
     );
   }
 }
